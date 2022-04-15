@@ -1,0 +1,11 @@
+.student_view_page_div{
+    margin-left: 260px !important;
+    width: 1080px !important;
+}
+
+@media only screen and (max-width:768px) {
+    .student_view_page_div{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+}

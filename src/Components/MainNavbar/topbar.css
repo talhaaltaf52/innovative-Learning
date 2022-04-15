@@ -1,0 +1,38 @@
+.drop_div{
+    width: 160px;
+    margin-left: auto;
+}
+.ant-dropdown-link{
+    color: #fff !important;
+    padding: 5px 20px !important;
+    background-color: #ff5722 !important;
+    border-radius: 25px !important;
+}
+.Menu_Items{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 25px;
+}
+.logout_button{
+    color: #ff5722;
+    background-color: #fff;
+    font-size: small;
+    border: none;
+    outline: none;
+}
+.down_arrow{
+    position: relative;
+    top: -3px;
+    left: 2px;
+}
+@media only screen and (max-width:768px) {
+    .ant-dropdown-link{
+        font-size: 13px !important;
+        padding: 5px 10px !important;
+    }
+    .down_arrow{
+        top: -2px;
+        left: 0px;
+    }
+}

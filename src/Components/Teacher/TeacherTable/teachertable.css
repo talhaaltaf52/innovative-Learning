@@ -1,0 +1,108 @@
+.Teacher_Search {
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+.Teacher_Search_Icon {
+  color: #15283c;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+.Teacher_Search_Input {
+  width: 98%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #15283c;
+  background-color: #fff;
+}
+.teach_name {
+  font-weight: bold;
+  color: #15283c;
+}
+.teacher_thead {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.teacher_td {
+  text-align: left;
+  padding: 8px;
+  color: #15283c;
+  font-weight: 500;
+  font-size: 17px;
+}
+.teacher_tr {
+  height: 50px;
+  background-color: #01204125;
+}
+.teacher_tr:nth-child(even) {
+  background-color: #ffd0c263;
+}
+.Teacher_Pagination {
+  background-color: #ffd0c263;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+.teacher_tr_head {
+  height: 50px;
+  background-color: #0a2d52;
+  color: #fff;
+}
+
+.Teach_View_Button {
+  padding: 7px 10px 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px 0px 0px 6px;
+}
+.Teach_Del_Button {
+  padding: 7px 10px 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.Teacher_Spinner{
+  color: #ff5722;
+}
+
+@media only screen and (max-width: 768px) {
+  .Teacher_Search_Input {
+    width: 90%;
+  }
+  .teacher_thead {
+    font-size: 11px;
+  }
+  .teacher_td {
+    font-size: 10px;
+  }
+  .teacher_tr_head {
+    height: 25px;
+  }
+  .teacher_th{
+    font-size: xx-small;
+  }
+  .Teach_View_Button{
+    font-size: xx-small;
+    padding: 1px 3px 1px 3px;
+    border-radius: 2px 0px 0px 2px;
+  }
+  .Teach_Del_Button{
+    font-size: xx-small;
+    padding: 1px 3px 1px 3px;
+    border-radius: 0px 2px 2px 0px;
+  }
+}

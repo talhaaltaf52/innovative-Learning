@@ -1,0 +1,98 @@
+.nav_background{
+    background-color: #15283c;
+    transition: all 0.3s;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
+    float: left;
+    width: 100%;
+    background-image: url('/src/Assets/pattern.png');
+    height: 100vh;
+}
+.user_profile {
+    text-align: center;
+    background-color: #214162;
+    padding-bottom: 7%;
+}
+.user_logo{
+    margin-top: 10%;
+    width: 79px;
+    height: 79px;
+    border-radius: 100%;
+    margin-bottom: 7%;
+}
+.user_name, .user_design{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 7px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text_heading{
+    color: #fff;
+    background-color: #15283c;
+    border-bottom: 1px solid #ff5722;
+    margin-top: 10%;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 2%;
+}
+.h4_text{
+    padding-left: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.h6_text{
+    color: #fff;
+}
+.dash_icon{
+    color: #ff9800 !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.teac_icon{
+    color: #ff5722 !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.stud_icon{
+    color: #198754 !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.feed_icon{
+    color: #dc3545 !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.cont_icon{
+    color: #fff !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.nav_link{
+    margin-left: 10px;
+    text-align: start;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav_link:hover{
+    color: #fff;
+}
+.navbar_logo{
+    width: 210px;
+    height: 50px;
+}
+.active{
+    color: #ff5722;
+}
+
+@media only screen and (max-width:700px) {
+    .navbar_logo{
+        width: 140px;
+        height: 40px;
+    }
+}

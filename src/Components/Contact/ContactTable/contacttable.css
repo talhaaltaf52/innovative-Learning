@@ -1,0 +1,110 @@
+.Contact_Search {
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin-top: 30px;
+    background-color: #fff;
+  }
+  .Contact_Search_Icon {
+    color: #15283c;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+  }
+  .Contact_Search_Input {
+    width: 98%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #15283c;
+    background-color: #fff;
+  }
+  .cont_name {
+    font-weight: bold;
+    color: #15283c;
+  }
+  .contact_thead {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  .contact_td {
+    text-align: left;
+    padding: 8px;
+    color: #15283c;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .contact_tr {
+    height: 50px;
+    background-color: #01204125;
+  }
+  .contact_tr:nth-child(even) {
+    background-color: #ffd0c263;
+  }
+  .Contact_Pagination {
+    background-color: #ffd0c263;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .contact_tr_head {
+    height: 50px;
+    background-color: #0a2d52;
+    color: #fff;
+  }
+  
+  .Cont_View_Button {
+    padding: 7px 10px 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px 0px 0px 6px;
+  }
+  .Cont_Del_Button {
+    padding: 7px 10px 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px 6px 6px 0px;
+  }
+
+  .Contact_Spinner{
+    color: #ff5722;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Contact_Search_Input {
+      width: 90%;
+    }
+    .contact_thead {
+      font-size: 10px;
+    }
+    .contact_td {
+      font-size: 9px;
+    }
+    .contact_tr_head {
+      height: 25px;
+    }
+    .contact_th{
+      font-size: xx-small;
+    }
+    .Cont_View_Button{
+      font-size: xx-small;
+      padding: 1px 3px 1px 3px;
+      border-radius: 2px 0px 0px 2px;
+    }
+    .Cont_Del_Button{
+      font-size: xx-small;
+      padding: 1px 3px 1px 3px;
+      border-radius: 0px 2px 2px 0px;
+    }
+  }
+  

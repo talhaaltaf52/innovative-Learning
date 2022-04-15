@@ -1,0 +1,135 @@
+.dash_div{
+    margin-left: 260px !important;
+    color: black;
+    width: 1080px !important;
+}
+.Dash_Container{
+    margin-top: 30px;
+}
+.Dash_Heading{
+    font-weight: bold;
+    border-bottom: 2px solid #15283c;
+    text-transform: uppercase;
+    width: 15%;
+}
+.Col_Div{
+    background-color: #ff5722;
+    border-radius: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.Col_Div:hover{
+    background-color: #15283c;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.Col_Div_1{
+    background-color: #ff5722;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.Col_Div_1:hover{
+    background-color: #15283c;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.Col_Div_2{
+    background-color: #ff5722;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.Col_Div_2:hover{
+    background-color: #15283c;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.Col_Div_3{
+    background-color: #ff5722;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.Col_Div_3:hover{
+    background-color: #15283c;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.Col_Icon{
+    color: #808080;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 5px 10px;
+}
+.Col_Heading{
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.Col_Number{
+    color: #fff;
+}
+.data{
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.data::-webkit-scrollbar {
+    width: 7px;
+}
+  
+.data::-webkit-scrollbar-track {
+    background: #15283c;
+    border-radius: 20px;
+}
+  
+.data::-webkit-scrollbar-thumb {
+    background-color: #ff5722; 
+    border-radius: 20px;       
+}
+  
+.Data_Row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Row_Heading{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Dashboard_Spinner{
+    color: #ff5722;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .dash_div{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .Col_Div_1{
+        margin-left: 0px;
+        margin-top: 10px !important;
+    }
+    .Col_Div_2{
+        margin-left: 0px;
+        margin-top: 10px !important;
+    }
+    .Col_Div_3{
+        margin-left: 0px;
+        margin-top: 10px !important;
+    }
+    .Dash_Heading{
+        width: 43%;
+    }
+    .Row_Heading{
+        margin-top: 30px;
+    }
+}
+
